@@ -12,14 +12,28 @@
     flex-direction: column;
     align-items: flex-start;
     padding: 25px;
+    & button {
+      border-radius: 50px;
+      border: none;
+      padding: 5px 15px;
+    }
   }
   & > :nth-child(1) {
     background-color: #e28525;
+    & button:nth-child(n) {
+      color: #e28525;
+    }
   }
   & > :nth-child(2) {
     background-color: #016972;
+    & button:nth-child(n) {
+      color: #016972;
+    }
   }
   & > :nth-child(3) {
     background-color: #00403f;
+    & button:nth-child(n) {
+      color: #00403f;
+    }
   }
 }
