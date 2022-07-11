@@ -18,6 +18,13 @@
       padding: 10px 20px;
     }
     & p {
+      padding-bottom: 10px;
+      font-family: "Lexend Deca", sans-serif;
+      font-size: 11px;
+      line-height: 20px;
+    }
+    & h2 {
+      font-family: "Big Shoulders Display", cursive;
     }
   }
   & > :nth-child(1) {
@@ -45,5 +52,8 @@
     flex-direction: row;
     margin: 100px;
     align-content: center;
+    &__card > p {
+      padding-bottom: 40px;
+    }
   }
 }
