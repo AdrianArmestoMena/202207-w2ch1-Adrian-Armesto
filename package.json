@@ -1,0 +1,27 @@
+{
+  "name": "week2-challenge1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install",
+    "sass": "npx sass sass/styles.scss css/styles.css",
+    "sass-watch": "npx sass sass/styles.scss css/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdrianArmestoMena/202207-w2ch1-Adrian-Armesto.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdrianArmestoMena/202207-w2ch1-Adrian-Armesto/issues"
+  },
+  "homepage": "https://github.com/AdrianArmestoMena/202207-w2ch1-Adrian-Armesto#readme",
+  "devDependencies": {
+    "husky": "^8.0.0",
+    "sass": "^1.53.0"
+  }
+}
