@@ -7,7 +7,6 @@
   border-radius: 4px;
   overflow: hidden;
   &__card {
-    flex: 1;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -35,5 +34,13 @@
     & button:nth-child(n) {
       color: #00403f;
     }
+  }
+}
+
+@media (min-width: 600px) {
+  .main-content {
+    flex-direction: row;
+    margin: 100px;
+    align-content: center;
   }
 }
